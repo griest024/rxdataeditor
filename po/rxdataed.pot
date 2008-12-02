@@ -1,0 +1,187 @@
+#: src/main_frame.rb:24
+msgid "RXData Editor"
+msgstr ""
+
+#: src/main_frame.rb:35
+msgid "&New file"
+msgstr ""
+
+#: src/main_frame.rb:36
+msgid "&Open file..."
+msgstr ""
+
+#: src/main_frame.rb:38
+msgid "&Save file"
+msgstr ""
+
+#: src/main_frame.rb:39
+msgid "S&ave file as..."
+msgstr ""
+
+#: src/main_frame.rb:40
+msgid "&Close file"
+msgstr ""
+
+#: src/main_frame.rb:42
+msgid "&Insert item"
+msgstr ""
+
+#: src/main_frame.rb:43
+msgid "&Delete item"
+msgstr ""
+
+#: src/main_frame.rb:45
+msgid "Move item &up"
+msgstr ""
+
+#: src/main_frame.rb:46
+msgid "Move item &down"
+msgstr ""
+
+#: src/main_frame.rb:48
+msgid "Qui&t"
+msgstr ""
+
+#: src/main_frame.rb:50
+msgid "&File"
+msgstr ""
+
+#: src/main_frame.rb:53
+msgid "&Undo"
+msgstr ""
+
+#: src/main_frame.rb:54
+msgid "&Redo"
+msgstr ""
+
+#: src/main_frame.rb:56
+msgid "Cu&t"
+msgstr ""
+
+#: src/main_frame.rb:57
+msgid "&Copy"
+msgstr ""
+
+#: src/main_frame.rb:58
+msgid "&Paste"
+msgstr ""
+
+#: src/main_frame.rb:64
+msgid "&Edit"
+msgstr ""
+
+#: src/main_frame.rb:72
+msgid "New"
+msgstr ""
+
+#: src/main_frame.rb:74
+msgid "Open"
+msgstr ""
+
+#: src/main_frame.rb:76
+msgid "Save"
+msgstr ""
+
+#: src/main_frame.rb:80
+msgid "Insert"
+msgstr ""
+
+#: src/main_frame.rb:82
+msgid "Delete"
+msgstr ""
+
+#: src/main_frame.rb:86
+msgid "Up"
+msgstr ""
+
+#: src/main_frame.rb:88
+msgid "Down"
+msgstr ""
+
+#: src/main_frame.rb:92
+msgid "Undo"
+msgstr ""
+
+#: src/main_frame.rb:94
+msgid "Redo"
+msgstr ""
+
+#: src/main_frame.rb:98
+msgid "Cut"
+msgstr ""
+
+#: src/main_frame.rb:100
+msgid "Copy"
+msgstr ""
+
+#: src/main_frame.rb:102
+msgid "Paste"
+msgstr ""
+
+#: src/main_frame.rb:106
+msgid "Find"
+msgstr ""
+
+#: src/main_frame.rb:157 src/main_frame.rb:181
+msgid "Open existing file..."
+msgstr ""
+
+#: src/main_frame.rb:184
+msgid "Select an item class to create"
+msgstr ""
+
+#: src/main_frame.rb:184
+msgid "New file"
+msgstr ""
+
+#: src/main_frame.rb:192
+msgid "Open file"
+msgstr ""
+
+#: src/rxdataed.rb:78
+msgid "RPG Maker XP data"
+msgstr ""
+
+#: src/rxdataed.rb:79
+msgid "All files"
+msgstr ""
+
+#: src/editor_base.rb:31
+msgid "Untitled"
+msgstr ""
+
+#: src/editor_base.rb:40
+msgid "Empty"
+msgstr ""
+
+#: src/editor_base.rb:221
+msgid "Save file"
+msgstr ""
+
+#: src/editor_base.rb:231 src/editor_base.rb:240
+msgid "Enter item name"
+msgstr ""
+
+#: src/editor_base.rb:231
+msgid "New item"
+msgstr ""
+
+#: src/editor_base.rb:240
+msgid "Rename item"
+msgstr ""
+
+#: src/editor_base.rb:250
+msgid "Delete script \"%s\"?"
+msgstr ""
+
+#: src/editor_base.rb:251
+msgid "Delete script"
+msgstr ""
+
+#: src/generic_editor.rb:64
+msgid "Property"
+msgstr ""
+
+#: src/generic_editor.rb:64
+msgid "Value"
+msgstr ""

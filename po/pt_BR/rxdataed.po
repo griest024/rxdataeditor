@@ -1,0 +1,190 @@
+#: src/main_frame.rb:24
+msgid "RXData Editor"
+msgstr "Editor RXData"
+
+#: src/main_frame.rb:35
+msgid "&New file"
+msgstr "&Novo arquivo"
+
+#: src/main_frame.rb:36
+msgid "&Open file..."
+msgstr "&Abrir arquivo..."
+
+#: src/main_frame.rb:38
+msgid "&Save file"
+msgstr "&Salvar arquivo..."
+
+#: src/main_frame.rb:39
+msgid "S&ave file as..."
+msgstr "Sal&var arquivo como..."
+
+#: src/main_frame.rb:40
+msgid "&Close file"
+msgstr "Fe&char arquivo"
+
+#: src/main_frame.rb:42
+msgid "&Insert item"
+msgstr "&Inserir item"
+
+#: src/main_frame.rb:43
+msgid "&Delete item"
+msgstr "E&xcluir item..."
+
+#: src/main_frame.rb:45
+msgid "Move item &up"
+msgstr "Mo&ver para cima"
+
+#: src/main_frame.rb:46
+msgid "Move item &down"
+msgstr "Mover para &baixo"
+
+#: src/main_frame.rb:48
+msgid "Qui&t"
+msgstr "Sai&r"
+
+#: src/main_frame.rb:50
+msgid "&File"
+msgstr "&Arquivo"
+
+#: src/main_frame.rb:53
+msgid "&Undo"
+msgstr "Desfa&zer"
+
+#: src/main_frame.rb:54
+msgid "&Redo"
+msgstr "&Refazer"
+
+#: src/main_frame.rb:56
+msgid "Cu&t"
+msgstr "Recor&tar"
+
+#: src/main_frame.rb:57
+msgid "&Copy"
+msgstr "&Copiar"
+
+#: src/main_frame.rb:58
+msgid "&Paste"
+msgstr "Co&lar"
+
+#: src/main_frame.rb:64
+msgid "&Edit"
+msgstr "&Editar"
+
+#: src/main_frame.rb:72
+msgid "New"
+msgstr "Novo"
+
+#: src/main_frame.rb:74
+msgid "Open"
+msgstr "Abrir"
+
+#: src/main_frame.rb:76
+msgid "Save"
+msgstr "Salvar"
+
+#: src/main_frame.rb:80
+msgid "Insert"
+msgstr "Inserir"
+
+#: src/main_frame.rb:82
+msgid "Delete"
+msgstr "Excluir"
+
+#: src/main_frame.rb:86
+msgid "Up"
+msgstr "Cima"
+
+#: src/main_frame.rb:88
+msgid "Down"
+msgstr "Baixo"
+
+#: src/main_frame.rb:92
+msgid "Undo"
+msgstr "Desfazer"
+
+#: src/main_frame.rb:94
+msgid "Redo"
+msgstr "Refazer"
+
+#: src/main_frame.rb:98
+msgid "Cut"
+msgstr "Recortar"
+
+#: src/main_frame.rb:100
+msgid "Copy"
+msgstr "Copiar"
+
+#: src/main_frame.rb:102
+msgid "Paste"
+msgstr "Colar"
+
+#: src/main_frame.rb:106
+msgid "Find"
+msgstr "Procurar"
+
+#: src/main_frame.rb:157
+#: src/main_frame.rb:181
+msgid "Open existing file..."
+msgstr "Abrir arquivo existente..."
+
+#: src/main_frame.rb:184
+msgid "Select an item class to create"
+msgstr "Selecione uma classe de item para criar"
+
+#: src/main_frame.rb:184
+msgid "New file"
+msgstr "Novo arquivo"
+
+#: src/main_frame.rb:192
+msgid "Open file"
+msgstr "Abrir arquivo"
+
+#: src/rxdataed.rb:78
+msgid "RPG Maker XP data"
+msgstr "Dados RPG Maker XP"
+
+#: src/rxdataed.rb:79
+msgid "All files"
+msgstr "Todos os arquivos"
+
+#: src/editor_base.rb:31
+msgid "Untitled"
+msgstr "SemNome"
+
+#: src/editor_base.rb:40
+msgid "Empty"
+msgstr "Vazio"
+
+#: src/editor_base.rb:221
+msgid "Save file"
+msgstr "Salvar arquivo"
+
+#: src/editor_base.rb:231
+#: src/editor_base.rb:240
+msgid "Enter item name"
+msgstr "Digite nome do item"
+
+#: src/editor_base.rb:231
+msgid "New item"
+msgstr "Novo item"
+
+#: src/editor_base.rb:240
+msgid "Rename item"
+msgstr "Renomear item"
+
+#: src/editor_base.rb:250
+msgid "Delete script \"%s\"?"
+msgstr "Excluir script \"%s\"?"
+
+#: src/editor_base.rb:251
+msgid "Delete script"
+msgstr "Excluir script"
+
+#: src/generic_editor.rb:64
+msgid "Property"
+msgstr "Propriedade"
+
+#: src/generic_editor.rb:64
+msgid "Value"
+msgstr "Valor"
+
