@@ -1,0 +1,111 @@
+= RXData Editor
+
+This application is an user interfcae to edit RPG Maker XP data files. 
+It uses Ruby Marshal module to read and write these files.
+
+http://code.google.com/p/rxdataeditor/
+
+== License
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses>.
+
+
+== Credits
+
+* Zeriab for the script to read and write Scripts.rxdata
+* vgvgf for the Table class
+
+
+== Running from source
+
+You need Ruby and wxRuby to run the application from source code. Under MS 
+Windows you may need MSVCP71.DLL. Once you have Ruby and RubyGems 
+installed, you can install wxRuby with:
+
+  [sudo] gem install wxruby
+
+Then you can run the application from source with:
+
+  ruby rxdataed.rb
+
+In Linux, you can enable yourself to run the script as an executable from any 
+directory changing its permissions and creating a symbolic link:
+
+  chmod +x rxdataed.rb
+  ln -s rxdataed.rb /usr/bin/rxdataed
+
+And run it with:
+
+  rxdataed
+
+
+== Building the executable
+
+To build the executable from source, you need rake and rubyscript2exe gems, 
+which can be installed with the following command:
+
+  [sudo] gem install rake rubyscript2exe
+
+Then just call the build task:
+
+  rake build
+
+The output executable is called rxdataed in Linux and rxdataed.exe in 
+Windows. I don't know how it is called in Mac, I believe it's rxdataed.app.
+By default, rubyscript2exe will call the Linux executable as rxdataed_linux, 
+but the Rakefile will rename it. You can run this executable in any computer 
+without installing Ruby or the required gems. It would be nice if someone make 
+an installer for Windows or Debian and RPM packages for Linux. I don't know how 
+Mac applications are distributeds.
+
+
+== Source packages
+
+To create source packages from the rake tasks, you need archive-tar and 
+archive-zip gems, installed by
+
+  [sudo] gem install archive-tar archive-zip
+
+And then running the archive task to create a tarball archive and the zip 
+task to create a zip archive. 
+
+  rake archive
+  rake zip
+
+The resulting file contains all the Ruby scripts, the Rakefile, the basic 
+documentation and the MS Windows manifest.
+
+
+== Internationalization
+
+RXData Editor supports gettext, but you need the gem if you want to use a 
+translation. To install the gem, use:
+
+  [sudo] gem install gettext
+
+Now RXData Editor will try to use your system language, and use english if it 
+is not available. If you want to create a translation for your language, you 
+can create the translation template with:
+
+  rake updatepo
+
+and then use a plain text editor or a GUI like poedit[http://www.poedit.net] 
+to create a translation file in "po/[lang]/rxdataed.po", based in the template 
+in "po/rxdataed.pot". Once you are done, you can convert the plain text into 
+binary messages (mo) with the task:
+
+  rake makemo
+
+
+
