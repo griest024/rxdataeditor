@@ -1,8 +1,6 @@
 #summary Instructions to build executable from source code
 #labels Featured
 
-= Building executable =
-
 You need some additional gems to build the RXData Editor executable from the source code. You can install them typing this on the command line:
 
 {{{
@@ -22,5 +20,3 @@ but the Rakefile will rename it. You can run this executable in any computer
 without installing Ruby or the required gems. It would be nice if someone make 
 an installer for Windows or Debian and RPM packages for Linux. I don't know how 
 Mac applications are distributeds.
-
-
