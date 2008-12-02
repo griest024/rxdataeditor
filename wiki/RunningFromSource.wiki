@@ -1,8 +1,6 @@
 #summary Instructions to run RXData Editor from source code
 #labels Featured
 
-= Running from source =
-
 You need to download and install [http://ruby-lang.org/ Ruby] and [http://www.rubygems.org/ RubyGems]. Once you got them installed, you have to install wxRuby with the following command:
 
 {{{
